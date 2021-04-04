@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         shadowRadius:2,
         margin: 3,
         
-        backgroundColor: "#0c81f6",
+        backgroundColor: "#008891", //light cyan
     },
     cardcontent:{
         marginHorizontal: 16,

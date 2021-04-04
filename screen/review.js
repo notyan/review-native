@@ -12,13 +12,13 @@ export default function Review({navigation}) {
   return (
     <View style={global.container}>
       <Card>
-        <Text>{navigation.getParam('title')}</Text>
-        <Text>{navigation.getParam('body')}</Text>
+        <Text style={styles.reviewText}>{navigation.getParam('title')}</Text>
+        <Text style={styles.reviewText}>{navigation.getParam('body')}</Text>
         <View style={styles.rate}>
-          <Text>Yeet Ratings :</Text>
+          <Text style={styles.reviewText}>Yeet Ratings :</Text>
           <Image source={images.ratings[rating]}/>
         </View>
-        <Button title="Back" color="#5fe1d9" onPress={pressHandler}/>
+        <Button title="Back" color="#00587a" onPress={pressHandler}/>
       </Card>
       
     </View>
@@ -32,8 +32,9 @@ const styles = StyleSheet.create({
     paddingTop: 16,
     marginTop: 16,
     borderTopWidth: 2,
-    borderTopColor: '#5fe1d9',
-
-
+    borderTopColor: '#00587a',
+  },
+  reviewText:{
+    color:"#e7e7de",
   }
 })

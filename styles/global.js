@@ -8,7 +8,7 @@ export const  global = StyleSheet.create({
     titleText:{
       fontFamily:'Train-One',
       fontSize: 20,
-      color: '#333'
+      color: '#e7e7de' //krem
     },
     paragraph:{
         marginVertical:8,
