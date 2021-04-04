@@ -9,8 +9,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import Navigator from './routes/drawer'
 
 
-export default function App() {
-  //WARNING INGOR
+export default function App () {
+  //WARNING IGNORE
   LogBox.ignoreLogs([
     "Your project is accessing the following APIs from a deprecated global rather than a module import: Constants (expo-constants).",
   ]);
