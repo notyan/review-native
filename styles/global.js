@@ -20,6 +20,12 @@ export const  global = StyleSheet.create({
       padding: 8,
       fontSize: 18,
       borderRadius: 6,
+    },
+    errorMsg: {
+      color: '#008891',
+      marginTop: 2,
+      fontWeight: 'bold',
+      marginBottom: 4,
     }
   });
 
